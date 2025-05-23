@@ -1,0 +1,15 @@
+.ant-card-body {
+    border: none;
+    outline: none;
+  }
+  
+  .card-color-border {
+    border: 2px solid white !important;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 8px !important;
+  }
+  .custom-meta{
+      margin-top: 20px;
+  }
