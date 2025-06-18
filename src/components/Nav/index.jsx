@@ -13,10 +13,10 @@ function Nav() {
       </div>
       <div>
         <ul className='flex gap-6 mt-3 items-center'>
-          <li>NEW IN</li>
-          <li>MEN</li>
-          <li>WOMEN</li>
-          <li><NavLink to="/collection/summer-sale-2025">UPTO 50% OFF </NavLink> </li>
+          <li><NavLink className='text-white no-underline hover:border-white border-transparent border-b-2' to="">NEW IN</NavLink></li>
+          <li><NavLink className='text-white no-underline hover:border-white border-transparent border-b-2' to="/collection/all-men">MEN</NavLink></li>
+          <li ><NavLink className='text-white no-underline hover:border-white border-transparent border-b-2' to="/collection/all-women">WOMEN</NavLink></li>
+          <li><NavLink className='text-white no-underline  hover:border-white border-transparent border-b-2' to="/collection/summer-sale-2025">UPTO 50% OFF </NavLink> </li>
         </ul>
 
       </div>

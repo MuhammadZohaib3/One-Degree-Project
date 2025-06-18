@@ -16,7 +16,7 @@ function Login() {
       <div
         className="modal fade"
         id="Login"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >

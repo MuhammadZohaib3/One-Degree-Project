@@ -14,7 +14,7 @@ function SubscribeCard() {
               <p className="text-5xl font-bold italic mt-2">SUBSCRIBE NOW!</p>
               <div className=" d-flex items-center mt-4">
                 <input className="bg-black p-2 w-80 ml-4 " type="gmail" placeholder="Your Email" />
-                <button type="button" class="btn btn-secondary ml-4 ">Submit</button>
+                <button type="button" className="btn btn-secondary ml-4 ">Submit</button>
               </div>
             </div>
           </div>

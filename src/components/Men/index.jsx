@@ -1,16 +1,16 @@
 import React from "react";
 import { FaStar } from "react-icons/fa6";
-import "./index.css"
+import "./index.css";
 import { Card } from "antd";
 const { Meta } = Card;
-;
-function UpTo50PercentOffCard({
+
+function Men({
   title = "No Title",
   src = "",
   backgroundColor = "",
   price = "",
   src2 = "",
-  price2 = ""
+  price2 = "",
 }) {
   return (
     <Card
@@ -38,22 +38,21 @@ function UpTo50PercentOffCard({
         <div className="card-price text-[1.03rem] font-[500] text-white">
           Rs {price}
         </div>
-        <div
-          className="d-flex items-center mt-2  "
-         
-        >
-          <FaStar  style={{ fill: "orange", fontSize: '19px' }}/>
-          <FaStar  style={{ fill: "orange", fontSize: '19px' }}/>
-          <FaStar  style={{ fill: "orange", fontSize: '19px' }}/>
-          <FaStar  style={{ fill: "orange", fontSize: '19px' }}/>
-          <FaStar  style={{ fill: "orange", fontSize: '19px' }}/>
+        <div className="d-flex items-center mt-2  ">
+          <FaStar style={{ fill: "orange", fontSize: "19px" }} />
+          <FaStar style={{ fill: "orange", fontSize: "19px" }} />
+          <FaStar style={{ fill: "orange", fontSize: "19px" }} />
+          <FaStar style={{ fill: "orange", fontSize: "19px" }} />
+          <FaStar style={{ fill: "orange", fontSize: "19px" }} />
           <span> (1) </span>
         </div>
         <div className="flex items-center">
           <img className="w-5" src={src2} alt="" />
-        <p className="pt-3 pl-1">Pay only Rs.{price2} now</p></div>     
+          <p className="pt-3 pl-1">Pay only Rs.{price2} now</p>
+        </div>
       </div>
     </Card>
   );
 }
-export default UpTo50PercentOffCard;
+
+export default Men;
