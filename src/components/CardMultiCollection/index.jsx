@@ -4,7 +4,7 @@ import "./index.css"
 import { Card } from "antd";
 const { Meta } = Card;
 ;
-function UpTo50PercentOffCard({
+function CardMultiCollection({
   title = "No Title",
   src = "",
   backgroundColor = "",
@@ -56,4 +56,4 @@ function UpTo50PercentOffCard({
     </Card>
   );
 }
-export default UpTo50PercentOffCard;
+export default CardMultiCollection;

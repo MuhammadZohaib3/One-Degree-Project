@@ -25,15 +25,15 @@ import menCollImg14 from "../../src/assets/images/men-img14.webp"
 import menCollImg15 from "../../src/assets/images/men-img15.webp"
 import menCollImg16 from "../../src/assets/images/men-img16.webp"
 import menCollImg17 from "../../src/assets/images/men-img17.webp"
-import menCollImg18 from "../../src/assets/images/men-img18.webp"
-import menCollImg19 from "../../src/assets/images/men-img19.webp"
-import menCollImg20 from "../../src/assets/images/men-img20.webp"
+import newInImg18 from "../../src/assets/images/new-in-img18.webp"
+import newInImg19 from "../../src/assets/images/new-in-img19.webp"
+import newInImg20 from "../../src/assets/images/new-in-img20.webp"
 import menCollImg21 from "../../src/assets/images/men-img21.webp"
 import menCollImg22 from "../../src/assets/images/men-img22.webp"
 import menCollImg23 from "../../src/assets/images/men-img23.webp"
 import menCollImg24 from "../../src/assets/images/men-img24.webp"
 
-function AllMenCollection() {
+function NewInCollection() {
   const data2 = [
     {
       id: 1,
@@ -190,28 +190,28 @@ function AllMenCollection() {
     },
     {
       id: 18,
-      title: "Neon Green XLR8 Arc Running shoe",
-      src: menCollImg18,
-      backgroundColor: "green",
-      price: "16,000.00",
+      title: "White Orbit Everyday Sneaker 7.0",
+      src:newInImg18,
+      backgroundColor: "white",
+      price: "14,000.00",
       src2: srcb,
       price2: "6,133",
     },
     {
       id: 19,
-      title: "Navy XLR8 Arc Running shoe",
-      src: menCollImg19,
-      backgroundColor: "blue",
-      price: "23,000.00",
+      title: "Black Orbit Everyday Sneaker 7.0",
+      src: newInImg19,
+      backgroundColor: "black",
+      price: "14,000.00",
       src2: srcb,
       price2: "8,000",
     },
     {
       id: 20,
-      title: "Black Gray Padel Racket Cover",
-      src: menCollImg20,
-      backgroundColor: "black",
-      price: "23,000.00",
+      title: "Navy Orbit Everyday Sneaker 7.0",
+      src: newInImg20,
+      backgroundColor: "blue",
+      price: "14,000.00",
       src2: srcb,
       price2: "8,100",
     },
@@ -271,13 +271,13 @@ function AllMenCollection() {
                 className=" text-white no-underline"
                 to="/collection/all-men"
               >
-                All MEN
+                NEW IN
               </NavLink>
             </li>
           </ul>
         </div>
         <div className="text-center my-5">
-          <h1 className="italic font-bold">All Men</h1>
+          <h1 className="italic font-bold">NEW IN</h1>
         </div>
         <div className="flex justify-between items-center mx-5">
           <div>
@@ -328,4 +328,4 @@ function AllMenCollection() {
   );
 }
 
-export default AllMenCollection;
+export default NewInCollection;

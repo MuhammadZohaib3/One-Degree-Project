@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import Nav from "../components/Nav";
 import { MdNavigateNext } from "react-icons/md";
 import TrendingSlider from "../components/TrendingSlider";
-import UpTo50PercentOffCard from "../components/UpTo50%OffCard";
+import CardMultiCollection from "../components/CardMultiCollection";
 import OneDegreeCustomer from '../components/OneDegreeCustomer';
 import SubscribeCard from '../components/SubscribeCard';
 import Footer from '../components/Footer';
@@ -36,7 +36,7 @@ import saleimg25 from "../../src/assets/images/sale-img25.webp";
 import saleimg26 from "../../src/assets/images/sale-img26.webp";
 import saleimg27 from "../../src/assets/images/sale-img27.webp";
 
-function Home() {
+function UpTo50PersonOffCard() {
   const data2 = [
     {
       id: 1,
@@ -335,7 +335,7 @@ function Home() {
             <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem" }}>
               {data2.map(
                 ({ id, src, title, backgroundColor, price, src2, price2 }) => (
-                  <UpTo50PercentOffCard
+                  <CardMultiCollection
                     key={id}
                     src={src}
                     title={title}
@@ -358,4 +358,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default UpTo50PersonOffCard;
